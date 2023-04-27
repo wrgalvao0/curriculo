@@ -493,6 +493,7 @@ progress {
   font-weight: 300;
 }
 
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
@@ -579,6 +580,14 @@ progress {
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
+}
+.links-sobre
+{
+  text-decoration: none;
+}
+.links-sobre:hover
+{
+  text-decoration: underline;
 }
 
 .blockquote {
@@ -8299,7 +8308,14 @@ textarea.form-control-lg {
 .invisible {
   visibility: hidden !important;
 }
-
+.links_cursos
+{
+  text-decoration: none;
+}
+.links_cursos:hover
+{
+  text-decoration: underline;
+}
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
@@ -10856,6 +10872,8 @@ h1, .h1 {
 }
 
 p.lead {
+  text-align: justify;
+  text-indent: 50px;
   font-size: 1.15rem;
   font-weight: 400;
 }
